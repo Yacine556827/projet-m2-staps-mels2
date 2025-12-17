@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription - Nanterre Futsal Cup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Inscrire votre équipe</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Présentation</a></li>
+                <li><a href="evenement.html">L'Événement</a></li>
+                <li><a href="programme.html">Programme</a></li>
+                <li><a href="infos.html">Infos Pratiques</a></li>
+                <li><a href="inscription.html" class="active">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <p>Remplissez ce formulaire pour pré-inscrire votre équipe au tournoi.</p>
+            
+            <form action="#" method="post">
+                <label for="nom_equipe">Nom de l'équipe :</label>
+                <input type="text" id="nom_equipe" name="nom_equipe" required>
+
+                <label for="capitaine">Nom du Capitaine :</label>
+                <input type="text" id="capitaine" name="capitaine" required>
+
+                <label for="email">Email étudiant :</label>
+                <input type="email" id="email" name="email" placeholder="@parisnanterre.fr" required>
+
+                <label for="niveau">Niveau estimé :</label>
+                <select id="niveau" name="niveau">
+                    <option value="loisir">Loisir / Débutant</option>
+                    <option value="intermediaire">Intermédiaire</option>
+                    <option value="competition">Compétition / Club</option>
+                </select>
+
+                <button type="submit">Envoyer l'inscription</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Projet Étudiant M2 STAPS</p>
+    </footer>
+</body>
+</html>
